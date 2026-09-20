@@ -1,10 +1,10 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;Redirecting to New Orleans Arts &amp;amp; Ideas Festival&lt;/title&gt;
-&lt;meta name="robots" content="noindex"&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting to New Orleans Arts &amp; Ideas Festival</title>
+<meta name="robots" content="noindex">
+<script>
   var REDIRECTS = {
   "/about/": "https://fest.philosophers.group/about/",
   "/sponsor/": "https://fest.philosophers.group/sponsor/",
@@ -179,16 +179,16 @@
   var DEFAULT_TARGET = "https://fest.philosophers.group/";
   var path = window.location.pathname;
   // normalize: ensure a single trailing slash for directory-style WordPress permalinks
-  if (path.length > 1 &amp;&amp; path.charAt(path.length - 1) !== "/") {
+  if (path.length > 1 && path.charAt(path.length - 1) !== "/") {
     path += "/";
   }
   var target = REDIRECTS[path] || DEFAULT_TARGET;
   location.replace(target);
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;This page has moved to the New Orleans Arts &amp;amp; Ideas Festival site. If you are not redirected automatically,
-&lt;a id="fallback-link" href="https://fest.philosophers.group/"&gt;click here&lt;/a&gt;.&lt;/p&gt;
-&lt;script&gt;document.getElementById("fallback-link").href = target;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<p>This page has moved to the New Orleans Arts &amp; Ideas Festival site. If you are not redirected automatically,
+<a id="fallback-link" href="https://fest.philosophers.group/">click here</a>.</p>
+<script>document.getElementById("fallback-link").href = target;</script>
+</body>
+</html>
