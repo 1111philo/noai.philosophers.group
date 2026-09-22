@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noai.philosophers.group/sitemap.xml
